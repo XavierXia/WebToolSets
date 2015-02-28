@@ -1,4 +1,4 @@
-local ConfQuery = require 'toolsets.ConfQuery'
+local ConfQuery = require 'query.ConfQuery'
 local cjson = require 'cjson'
 local ts_budget_server_url = TS_BUDGET_SERVER_URL
 
@@ -13,7 +13,7 @@ function BudgetServerConfQuery:get_conf()
     newconf["line_items"] = conf and conf["line_item"] or nil
     newconf["worker_id"] = conf and conf["worker_id"] or nil
     conf = nil
-    --logger:log('test','in parent, get conf:%s',cjson.encode(newconf))
+    --logger:debug('in parent, get conf:%s',cjson.encode(newconf))
     return newconf    
 end
 

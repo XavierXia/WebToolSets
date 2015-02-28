@@ -1,11 +1,11 @@
 local ngx = ngx
-local redis = require 'redis'
-local cjson = require 'cjson.safe'
-local util = require 'shared.util'
-local logger = require 'shared.log'
+local redis = redis
+local cjson = cjson
+local util = util
+local logger = logger 
 local insert = table.insert
 local find, sub, byte = string.find, string.sub, string.byte
-require 'redis_conf'
+require 'conf.redis_conf'
 
 local redis_list = REDIS_SERVER
 local KEY_TYPE = {['i']='ip', ['d']='domain', ['u']='url'}
@@ -40,7 +40,7 @@ local function get_old_domain(prefix, key)
 end
 
 R.redis_status = function()
-    logger:log("test", "come in mem_usage")
+    logger:debug("%s","come in mem_usage")
     local tb = {}
     for i,s in pairs(servers) do
         local info = s:info()
@@ -93,7 +93,7 @@ local op_list = {
 function R:handle(ngx)
     local args = ngx.var.args
     local param = ngx.decode_args(args, 0)
-    logger:log("test","param:%s",cjson.encode(param))    
+    --logger:debug("param:%s",cjson.encode(param))    
     local op = param.op
     if not op then return ngx.say(cjson.encode(nil)) end
     local key, type = param.key, param.type

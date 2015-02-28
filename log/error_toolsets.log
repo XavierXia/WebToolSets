@@ -1,0 +1,154 @@
+2015/02/28 10:54:36 [emerg] 8982#0: bind() to 0.0.0.0:2100 failed (98: Address already in use)
+2015/02/28 10:54:36 [emerg] 8982#0: bind() to 0.0.0.0:2100 failed (98: Address already in use)
+2015/02/28 10:54:36 [emerg] 8982#0: bind() to 0.0.0.0:2100 failed (98: Address already in use)
+2015/02/28 10:54:36 [emerg] 8982#0: bind() to 0.0.0.0:2100 failed (98: Address already in use)
+2015/02/28 10:54:36 [emerg] 8982#0: bind() to 0.0.0.0:2100 failed (98: Address already in use)
+2015/02/28 10:54:36 [emerg] 8982#0: still could not bind()
+2015/02/28 11:01:16 [error] 9010#0: *1 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=info HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:01:16 [error] 9010#0: *3 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=global_whitelist HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:01:16 [error] 9010#0: *5 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=global_blacklist HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:01:17 [error] 9010#0: *7 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=creatives_allid HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:01:17 [error] 9010#0: *9 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=creatives&id=all HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:01:17 [error] 9010#0: *11 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=creatives&id=100583 HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:01:18 [error] 9010#0: *13 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=advertisers&id=all HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:01:18 [error] 9010#0: *15 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=advertisers_allid HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:01:18 [error] 9010#0: *17 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=advertisers&id=1000 HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:01:19 [error] 9010#0: *19 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=campaigns&id=all HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:01:19 [error] 9010#0: *21 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=campaigns_allid HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:01:19 [error] 9010#0: *23 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=campaigns&id=100242 HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:01:20 [error] 9010#0: *25 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=line_items&id=all HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:01:21 [error] 9010#0: *27 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=line_items_allid HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:01:22 [error] 9010#0: *29 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=line_items&id=100295 HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:02:19 [error] 9011#0: *32 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=info HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:02:20 [error] 9011#0: *34 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=global_whitelist HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:02:21 [error] 9011#0: *36 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=global_blacklist HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:02:22 [error] 9011#0: *38 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=creatives_allid HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:02:23 [error] 9011#0: *40 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=creatives&id=all HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:02:23 [error] 9011#0: *42 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=creatives&id=100583 HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:02:24 [error] 9011#0: *44 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=advertisers&id=all HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:02:25 [error] 9011#0: *46 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=advertisers_allid HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:01:22 [error] 9010#0: *31 lua entry thread aborted: runtime error: /home/xiawenxing/web_toolsets/resty/redis.lua:813: could not connect to 172.31.8.203:6379 [timeout]
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua:2: in function <content_by_lua:1>, client: 172.16.250.1, server: localhost, request: "GET /query_redis?op=key_location&key=http://baidu.com&type=u HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:02:26 [error] 9011#0: *48 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=advertisers&id=1000 HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:02:26 [error] 9011#0: *50 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=campaigns&id=all HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:02:26 [error] 9011#0: *52 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=campaigns_allid HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:02:27 [error] 9011#0: *54 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=campaigns&id=100242 HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:02:27 [error] 9011#0: *56 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=line_items&id=all HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:02:27 [error] 9011#0: *58 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=line_items_allid HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:02:28 [error] 9011#0: *60 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=line_items&id=100295 HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:02:28 [error] 9011#0: *62 lua entry thread aborted: runtime error: /home/xiawenxing/web_toolsets/resty/redis.lua:813: could not connect to 172.31.8.203:6379 [No route to host]
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua:2: in function <content_by_lua:1>, client: 172.16.250.1, server: localhost, request: "GET /query_redis?op=key_location&key=http://baidu.com&type=u HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:04:36 [error] 9010#0: *63 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=info HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:04:37 [error] 9012#0: *65 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=global_whitelist HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:04:37 [error] 9012#0: *67 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=global_blacklist HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:04:37 [error] 9012#0: *69 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=creatives_allid HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:04:38 [error] 9009#0: *71 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=creatives&id=all HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:04:38 [error] 9009#0: *73 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=creatives&id=100583 HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:04:38 [error] 9009#0: *75 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=advertisers&id=all HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:04:39 [error] 9010#0: *77 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=advertisers_allid HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:04:39 [error] 9010#0: *79 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=advertisers&id=1000 HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:04:39 [error] 9011#0: *81 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=campaigns&id=all HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:04:40 [error] 9011#0: *83 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=campaigns_allid HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:04:40 [error] 9011#0: *85 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=campaigns&id=100243 HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:04:40 [error] 9011#0: *87 lua entry thread aborted: runtime error: content_by_lua:2: loop or previous error loading module 'query.RedisInfoQuery'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua:2: in function <content_by_lua:1>, client: 172.16.250.1, server: localhost, request: "GET /query_redis?op=key_location&key=http://baidu.com&type=u HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:05:15 [error] 9011#0: *88 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=info HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:05:15 [error] 9011#0: *90 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=global_whitelist HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:05:15 [error] 9011#0: *92 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=global_blacklist HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:05:16 [error] 9010#0: *94 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=creatives_allid HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:05:16 [error] 9010#0: *96 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=creatives&id=all HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:05:16 [error] 9010#0: *98 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=creatives&id=100583 HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:05:17 [error] 9011#0: *100 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=advertisers&id=all HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:05:17 [error] 9011#0: *102 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=advertisers_allid HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:05:17 [error] 9011#0: *104 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=advertisers&id=1000 HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:05:18 [error] 9011#0: *106 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=campaigns&id=all HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:05:18 [error] 9011#0: *108 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=campaigns_allid HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:05:18 [error] 9010#0: *110 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=campaigns&id=100243 HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:07:59 [error] 9009#0: *112 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=line_items&id=all HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:07:59 [error] 9011#0: *114 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=line_items_allid HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:07:59 [error] 9011#0: *116 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_cms_conf?op=line_items&id=100295 HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:08:31 [error] 9011#0: *118 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_budget_conf?op=line_items&id=all HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:08:31 [error] 9011#0: *120 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_budget_conf?op=line_items_allid HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:08:32 [error] 9011#0: *122 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_budget_conf?op=line_items&id=100261 HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:08:32 [error] 9011#0: *124 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_budget_conf?op=campaigns&id=all HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:08:32 [error] 9011#0: *126 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_budget_conf?op=campaigns_allid HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:08:32 [error] 9011#0: *128 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_budget_conf?op=campaigns&id=100240 HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:08:35 [error] 9011#0: *130 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_budget_conf?op=line_items&id=all HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:08:35 [error] 9011#0: *132 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_budget_conf?op=line_items_allid HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:08:35 [error] 9011#0: *134 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_budget_conf?op=line_items&id=100261 HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:08:35 [error] 9011#0: *136 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_budget_conf?op=campaigns&id=all HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:08:35 [error] 9011#0: *138 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_budget_conf?op=campaigns_allid HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:08:35 [error] 9011#0: *140 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_budget_conf?op=campaigns&id=100240 HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:09:41 [error] 9011#0: *158 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_budget_client?op=line_items_allid HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:09:41 [error] 9011#0: *160 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_budget_client?op=line_items&id=100295 HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:09:41 [error] 9011#0: *162 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_budget_client?op=line_items&id=all HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:09:44 [error] 9011#0: *164 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_budget_client?op=line_items_allid HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:09:44 [error] 9011#0: *166 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_budget_client?op=line_items&id=100295 HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:09:44 [error] 9011#0: *168 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_budget_client?op=line_items&id=all HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:10:27 [error] 9011#0: *170 lua entry thread aborted: runtime error: content_by_lua:2: loop or previous error loading module 'query.RedisInfoQuery'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua:2: in function <content_by_lua:1>, client: 172.16.250.1, server: localhost, request: "GET /query_redis?op=redis_status HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:10:30 [error] 9011#0: *171 lua entry thread aborted: runtime error: content_by_lua:2: loop or previous error loading module 'query.RedisInfoQuery'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua:2: in function <content_by_lua:1>, client: 172.16.250.1, server: localhost, request: "GET /query_redis?op=redis_status HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:11:24 [error] 9011#0: *172 lua entry thread aborted: runtime error: content_by_lua:2: loop or previous error loading module 'query.RedisInfoQuery'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua:2: in function <content_by_lua:1>, client: 172.16.250.1, server: localhost, request: "GET /query_redis?op=redis_status HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:11:38 [error] 9011#0: *173 lua entry thread aborted: runtime error: content_by_lua:2: loop or previous error loading module 'query.RedisInfoQuery'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua:2: in function <content_by_lua:1>, client: 172.16.250.1, server: localhost, request: "GET /query_redis?op=redis_status HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:40:48 [error] 9011#0: *174 lua entry thread aborted: runtime error: content_by_lua:2: loop or previous error loading module 'query.RedisInfoQuery'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua:2: in function <content_by_lua:1>, client: 172.16.250.1, server: localhost, request: "GET /query_redis?op=redis_status HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:41:43 [error] 9011#0: *175 lua entry thread aborted: runtime error: content_by_lua:2: loop or previous error loading module 'query.RedisInfoQuery'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua:2: in function <content_by_lua:1>, client: 172.16.250.1, server: localhost, request: "GET /query_redis?op=redis_status HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:42:00 [error] 9011#0: *176 lua entry thread aborted: runtime error: content_by_lua:2: loop or previous error loading module 'query.RedisInfoQuery'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua:2: in function <content_by_lua:1>, client: 172.16.250.1, server: localhost, request: "GET /query_redis?op=redis_status HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:49:08 [error] 9011#0: *177 lua entry thread aborted: runtime error: content_by_lua:2: loop or previous error loading module 'query.RedisInfoQuery'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua:2: in function <content_by_lua:1>, client: 172.16.250.1, server: localhost, request: "GET /query_redis?op=redis_status HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 11:49:25 [error] 9011#0: *178 lua entry thread aborted: runtime error: content_by_lua:2: loop or previous error loading module 'query.RedisInfoQuery'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua:2: in function <content_by_lua:1>, client: 172.16.250.1, server: localhost, request: "GET /query_redis?op=redis_status HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 15:35:25 [error] 9011#0: *179 lua entry thread aborted: runtime error: content_by_lua:2: loop or previous error loading module 'query.RedisInfoQuery'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua:2: in function <content_by_lua:1>, client: 172.16.250.1, server: localhost, request: "GET /query_redis?op=redis_status HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 16:19:38 [error] 16905#0: *2 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_budget_client?op=line_items_allid HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 16:19:38 [error] 16905#0: *4 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_budget_client?op=line_items&id=100295 HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 16:19:38 [error] 16905#0: *6 [lua] http.lua:722: request_uri(): closed, client: 172.16.250.1, server: localhost, request: "GET /query_budget_client?op=line_items&id=all HTTP/1.1", host: "183.56.131.131:2111"
+2015/02/28 16:19:08 [error] 16903#0: *1 lua entry thread aborted: runtime error: /home/xiawenxing/web_toolsets/resty/redis.lua:813: could not connect to 172.31.8.203:6379 [timeout]
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua:2: in function <content_by_lua:1>, client: 172.16.250.1, server: localhost, request: "GET /query_redis?op=redis_status HTTP/1.1", host: "183.56.131.131:2111"

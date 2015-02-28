@@ -1,4 +1,4 @@
-local ConfQuery = require 'toolsets.ConfQuery'
+local ConfQuery = require 'query.ConfQuery'
 local ts_budget_client_url = TS_BUDGET_CLIENT_URL
 
 BudgetClientConfQuery = ConfQuery:new({__index = ConfQuery})

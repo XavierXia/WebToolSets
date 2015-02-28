@@ -1,10 +1,10 @@
-Class = require 'shared.base.Class'
+Class = require 'shared.Class'
 local logger = require 'shared.log'
 local http = require 'resty.http'
+local cjson = require 'cjson'
 
 ConfQuery = Class:new()
 local insert = table.insert
-local cjson = require 'cjson'
 local pairs = pairs
 local next = next
 
@@ -24,7 +24,7 @@ local oplist = {
 
 function ConfQuery:get_all(conf, op)
     local all_id, all = {},{}
-    logger:log("test", "op, not id :%s", op)
+    logger:debug("op, not id :%s", op)
     for k,v in pairs(conf[op] or {}) do
         insert(all_id, k)
         if not v['id'] then v['id'] = k end  
@@ -50,7 +50,7 @@ function ConfQuery:parse_conf(conf, op, id)
         return nil
     else
         if allid[op] then
-            logger:log("test", "allid[op]:%s",tostring(allid[op]))
+            logger:debug("allid[op]:%s",tostring(allid[op]))
             local all_id, _ = self:get_all(conf, allid[op])
             return all_id
         end
@@ -67,13 +67,13 @@ function ConfQuery:_get_conf(url)
     if res.status == 200 and res.body then
         conf, err = cjson.decode(res.body)
         if not conf then 
-            logger:log("test", 'decode cms data from proxy server, %s', err)
+            logger:error('decode cms data from proxy server, %s', err)
             return nil 
         end 
     else
-        logger:log("test","get conf from proxy server error, %s", tostring(res.status))
+        logger:error("get conf from proxy server error, %s", tostring(res.status))
     end
---    logger:log("test","conf:%s",cjson.encode(conf))
+--    logger:debug("conf:%s",cjson.encode(conf))
     return conf
 end
 
@@ -81,12 +81,12 @@ function ConfQuery:_handle(ngx)
     local params = ngx.req.get_uri_args()
     local op, id = params.op, params.id
     if not op then return ngx.say(cjson.encode(nil)) end
-    logger:log("test", "op:%s, id:%s",op,tostring(id))
+    logger:debug("op:%s, id:%s",op,tostring(id))
     ngx.header['Content-Type'] = 'application/json'
     local conf = self:get_conf()
-    logger:log("test", "conf:%s",cjson.encode(conf)) 
+    logger:debug("conf:%s",cjson.encode(conf)) 
     if not next(conf) then 
-        logger:log("test", "get %s from cms error!", op)    
+        logger:error("get %s from cms error!", op)    
         return ngx.say(cjson.encode(nil)) 
     end
     local strjson = self.__index:parse_conf(conf, op, id) or {}

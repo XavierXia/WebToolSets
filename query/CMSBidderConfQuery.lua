@@ -1,4 +1,4 @@
-local ConfQuery = require 'toolsets.ConfQuery'
+local ConfQuery = require 'query.ConfQuery'
 local logger = require "shared.log"
 
 local ts_cms_bidder_url = TS_CMS_BIDDER_URL
