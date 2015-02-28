@@ -48,7 +48,6 @@ host/query_cms_conf?op=all
 
 #2. cms_budget  (cms bidder服务器中提供)
 
-(like: http://180.153.42.40/cms/index.php/budget_server/config)
 
        |-- campaigns
             |-- id
@@ -62,7 +61,6 @@ host/query_budget_conf?op=line_items&id=100188
 
 # budget: server_info
 
-（http://bidder.bilin2000.com/read_info，在bidder服务器中提供）
 
        |-- worker_id
        |-- campaigns
